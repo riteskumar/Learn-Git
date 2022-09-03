@@ -1,0 +1,11 @@
+git status
+git init : for folder track
+git add --a : ready file for commit (a for all)
+git commit -m "Message": all changes are saved  or you can direct commit without adding : git commit -a -m  "Message"
+git log : all history of commit are show
+git log -p /(any number): 
+git log --stat : which line is remove or add
+git log --pretty=oneline: all commit in one line
+git log --pretty=short: only message(commit) and author name
+git log --pretty=full : more detail than short
+rm -rf .git : git can't track your file now because .git file was deleted
