@@ -10,5 +10,6 @@ git log --pretty=short: only message(commit) and author name
 git log --pretty=full : more detail than short
 git restore --staged  <Your file name>:your file will be unstaged (unadd) (Red)
 git checkout -- <Your File name> : Unmodified any file (if you modify any file then y this command you simple backtract of your file)
-
+git branch <name your own branch name> : switch your branch with your branch
+git checkout <branch-name> : switch to that branch
 rm -rf .git : git can't track your file now because .git file was deleted
