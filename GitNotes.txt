@@ -8,6 +8,7 @@ git log --stat : which line is remove or add
 git log --pretty=oneline: all commit in one line
 git log --pretty=short: only message(commit) and author name
 git log --pretty=full : more detail than short
+git branch -D <branch name>: it delete that branch
 git restore --staged  <Your file name>:your file will be unstaged (unadd) (Red)
 git checkout -- <Your File name> : Unmodified any file (if you modify any file then y this command you simple backtract of your file)
 1.git branch <name your own branch name> : switch your branch with your branch
